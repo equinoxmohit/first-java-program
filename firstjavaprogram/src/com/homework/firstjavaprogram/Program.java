@@ -100,23 +100,23 @@ public class Program {
                 add = a + b;
                 System.out.println(add);
             }
-            if (choices.equalsIgnoreCase("2")) {
+            else if (choices.equalsIgnoreCase("2")) {
                 sub = a - b;
                 System.out.println(sub);
             }
-            if (choices.equalsIgnoreCase("3")) {
+            else if (choices.equalsIgnoreCase("3")) {
                 div = a / b;
                 System.out.println(div);
             }
-            if (choices.equalsIgnoreCase("4")) {
+            else if (choices.equalsIgnoreCase("4")) {
                 mult = a * b;
                 System.out.println(mult);
             }
-            if (choices.equalsIgnoreCase("5")) {
+            else if (choices.equalsIgnoreCase("5")) {
                 modulus = a % b;
                 System.out.println(modulus);
             }
-            if (choices.equalsIgnoreCase("6")) {
+            else if (choices.equalsIgnoreCase("6")) {
                 System.exit(0);
             }
         }
